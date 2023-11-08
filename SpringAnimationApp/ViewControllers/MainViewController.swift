@@ -17,8 +17,8 @@ final class MainViewController: UIViewController {
     @IBOutlet weak var delayLabel: UILabel!
     
     @IBOutlet weak var mainView: SpringView!
-    
     @IBOutlet weak var secondView: SpringView!
+    
     @IBOutlet weak var changeAnimationButton: SpringButton!
     
     private var currentAnimation = Animation.getAnimation()
