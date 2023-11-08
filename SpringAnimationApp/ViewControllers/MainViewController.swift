@@ -27,6 +27,7 @@ final class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        mainView.layer.cornerRadius = 10
         changeAnimationButton.setTitle("Run \(currentAnimation.preset)", for: .normal)
     }
     
